@@ -1,0 +1,35 @@
+    console.log("Simple Calculator");
+    let a=parseInt(prompt("Enter Your First Number :"));
+    let b=parseInt(prompt("Enter Your Second Number :"));
+    let c=prompt("Operator :,+,-,*,/ :");
+ 
+function add (){
+    let d=a+b;
+    console.log(d);
+}
+function sub (){
+    let e=a-b;
+    console.log(e);
+};
+function multi (){
+    let f=a*b;
+    console.log(f);
+};
+function div (){
+    let g=a/b;
+    console.log(g);
+};
+
+if(c == "+"){
+add();
+    }
+else if( c == "-"){
+sub();
+    }
+    else if( c == "*"){
+multi();
+    }
+    else if( c == "/"){
+div();
+
+    }
